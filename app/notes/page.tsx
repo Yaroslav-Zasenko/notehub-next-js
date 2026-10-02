@@ -26,7 +26,7 @@ const NotesPage = () => {
 
   return (
     <div>
-      <h1>Список нотаток {data.total}</h1>
+      <h1>Список нотаток {data?.total}</h1>
 
       {/* Список нотаток */}
       <ul>
